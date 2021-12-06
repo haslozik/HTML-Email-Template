@@ -1,0 +1,80 @@
+/*var*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap");
+$font-1: "Baloo Bhaijaan 2";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-1;
+}
+
+body {
+  background: #686868;
+}
+
+/*comp*/
+.emailContainer {
+  width: 800px;
+  margin: 40px auto;
+  background: #fff;
+
+  nav {
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 45%;
+      height: 42px;
+    }
+  }
+
+  .blueContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00aeef;
+
+    img {
+      width: 95%;
+      padding: 85px 0 100px 0;
+    }
+  }
+
+  .textContainer {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    font-size: 27px;
+    line-height: 1.2;
+
+    .primary {
+      height: 60px;
+      width: 280px;
+      margin: 50px;
+      border: none;
+      background: #000;
+      color: #fff;
+      font-weight: 500;
+      font-size: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 23px;
+      cursor: pointer;
+      transition: 0.2s;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+
+    .line {
+      width: 95%;
+      margin: 20px auto 0 auto;
+      height: 12px;
+    }
+  }
+}

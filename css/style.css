@@ -1,0 +1,94 @@
+/*var*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Baloo Bhaijaan 2";
+}
+
+body {
+  background: #686868;
+}
+
+/*comp*/
+.emailContainer {
+  width: 800px;
+  margin: 40px auto;
+  background: #fff;
+}
+
+.emailContainer nav {
+  height: 95px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.emailContainer nav img {
+  width: 45%;
+  height: 42px;
+}
+
+.emailContainer .blueContent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #00aeef;
+}
+
+.emailContainer .blueContent img {
+  width: 95%;
+  padding: 85px 0 100px 0;
+}
+
+.emailContainer .textContainer {
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  font-size: 27px;
+  line-height: 1.2;
+}
+
+.emailContainer .textContainer .primary {
+  height: 60px;
+  width: 280px;
+  margin: 50px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 23px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.emailContainer .textContainer .primary:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.emailContainer .textContainer .line {
+  width: 95%;
+  margin: 20px auto 0 auto;
+  height: 12px;
+}
+/*# sourceMappingURL=style.css.map */
